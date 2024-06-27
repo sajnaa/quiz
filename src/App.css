@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #F4F4F4;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* .container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+.container {
+  max-width: 600px;
+  margin: auto; /* This will center the container horizontally */
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 170px; /* Adjust margin-top as needed for vertical centering */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h2 {
+  margin-top: 0;
+}
+.hidden {
+  display: none;
+}
+button {
+  background-color: #ff315e;
   color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 90px;
 }
 
-.App-link {
-  color: #61dafb;
+
+button[disabled] {
+  background-color: #e0e0e0;
+  color: #bdbdbd;
+  cursor: not-allowed;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  background-color:#ff315e;
 }
+label {
+  display: block;
+  margin: 10px 0;
+}
+.spaced-button {
+  margin-right: 10px;
+}
+/* style={{ backgroundColor: !isChecked ? '#e0e0e0' : '#4CAF50', color: '#ffffff' }} */
+/* =======background */
+
+/* body {
+  background-color: #f9f9f9;
+  color: #777;
+  font-family: proxima nova, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  min-height: 100%;
+  min-width: 100%;
+  overflow: auto;
+  position: relative;
+} */
+.tb--background {
+  background-color: #ebebed !important;
+}
+
+.login-bg-image {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -5;
+}
+.bgStyle {
+  background-image: url(https://ok1static.oktacdn.com/fs/bco/7/fs01hv7g2t4OK0m4K0h8);
+}
+/* .thankyou{
+
+} */

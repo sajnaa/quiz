@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+      "question": "Do you have experience in Digital Advertisement?",
+      "answerOptions": [
+        {"text": "Yes", "isCorrect": true},
+        {"text": "No","isCorrect": false}
+       
+      ]
+    },
+    {
+        "id":2,
+        "question": "Would you like to run Ads across other websites?",
+        "answerOptions": [
+          {"text": "Yes"},
+          {"text": "No"}
+        ]
+      },
+      {
+        "id":3,
+        "question": "Have you run campaigns on social media Eg: Facebook?  ",
+        "answerOptions": [
+          {"text": "Yes"},
+          {"text": "NO"}
+        
+        ]
+      },
+      {
+        "id":4,
+        "question": "Do you want to bring new visitors to your website?",
+        "answerOptions": [
+          {"text": "Yes"},
+          {"text": "No"}
+         
+        ]
+      },
+      {
+        "id":5,
+        "question": "Do you want to target the visitors reaching your website?",
+        "answerOptions": [
+          {"text": "Yes"},
+          {"text": "NO"}
+          
+        ]
+      },
+   {
+        "id":6,
+        "question": "What are the campaign types you would like to RUN?",
+        "answerOptions": [
+          {"text": "Web Retargeting"},
+          {"text": "Web Prospecting"},
+          {"text": "Facebook Retargeting"}
+        
+        ]
+      },
+    {
+        "id":8,
+      "question": "Do you have an account in NextRoll? ",
+      "answerOptions": [
+        {"text": "Yes"},
+        {"text": "No"}
+      ]
+    }
+  ]

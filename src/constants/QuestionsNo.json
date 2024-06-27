@@ -1,0 +1,70 @@
+[
+   
+    {
+      "question": "Would you like to run Ads across other websites?",
+      "answerOptions": [
+        {"text": "Yes"},
+        {"text": "No"}
+      ]
+    },
+    {
+      "question": "Have you run campaigns on social media Eg: Facebook?  ",
+      "answerOptions": [
+        {"text": "Yes"},
+        {"text": "NO"}
+      
+      ]
+    },
+    {
+      "question": "Do you want to bring new visitors to your website?",
+      "answerOptions": [
+        {"text": "Yes"},
+        {"text": "No"}
+       
+      ]
+    },
+    {
+      "question": "Do you want to target the visitors reaching your website?",
+      "answerOptions": [
+        {"text": "Yes"},
+        {"text": "NO"}
+        
+      ]
+    },
+    {
+      "question": "What is the most popular social media platform?",
+      "answerOptions": [
+        {"text": "Instagram", "isCorrect": true},
+        {"text": "Facebook", "isCorrect": false},
+        {"text": "Twitter", "isCorrect": false},
+        {"text": "YouTube", "isCorrect": false}
+      ]
+    },
+    {
+      "question": "What is the currency of Japan?",
+      "answerOptions": [
+        {"text": "Euro", "isCorrect": false},
+        {"text": "US Dollar", "isCorrect": false},
+        {"text": "Japanese Yen", "isCorrect": true},
+        {"text": "Chinese Yuan", "isCorrect": false}
+      ]
+    },
+    {
+      "question": "What is the world's largest search engine?",
+      "answerOptions": [
+        {"text": "Google", "isCorrect": true},
+        {"text": "Bing", "isCorrect": false},
+        {"text": "Yahoo", "isCorrect": false},
+        {"text": "DuckDuckGo", "isCorrect": false}
+      ]
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "answerOptions": [
+        {"text": "Michelangelo", "isCorrect": false},
+        {"text": "Leonardo da Vinci", "isCorrect": true},
+        {"text": "Sandro Botticelli", "isCorrect": false},
+        {"text": "Raphael", "isCorrect": false}
+      ]
+    }
+  ]
