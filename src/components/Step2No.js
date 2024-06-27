@@ -18,22 +18,22 @@ function Step2No({ onSubmit,previousStep }) {
 
   return (
     <div>
-      <h2>Step 2: Campaign Suggestions</h2>
+      <h2> That's perfectly all right. You're in the right place. Prior to getting started, I'd appreciate your input on how you'd like to promote your brand.</h2>
       <form onSubmit={handleSubmit}>
         <label>
-          <input type="checkbox" name="otherWebsites" onChange={handleChange} />
+          <input type="checkbox" name="Web Retargeting" onChange={handleChange} />
           Would you like to run Ads across other websites?
         </label>
         <label>
-          <input type="checkbox" name="socialMedia" onChange={handleChange} />
+          <input type="checkbox" name="Facebook Retargeting" onChange={handleChange} />
           Have you run campaigns on social media Eg: Facebook?
         </label>
         <label>
-          <input type="checkbox" name="newVisitors" onChange={handleChange} />
+          <input type="checkbox" name="Web Prospecting" onChange={handleChange} />
           Do you want to bring new visitors to your website?
         </label>
         <label>
-          <input type="checkbox" name="targetVisitors" onChange={handleChange} />
+          <input type="checkbox" name="Web Retargeting" onChange={handleChange} />
           Do you want to target the visitors reaching your website?
         </label>
         <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }}>

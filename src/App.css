@@ -92,3 +92,13 @@ label {
 /* .thankyou{
 
 } */
+.enter{
+  background-color: #ff315e;
+  color: white;
+  padding: 4px 10px;
+  /* margin: 10px 0; */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 60px;
+}

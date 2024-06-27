@@ -24,7 +24,7 @@ function Step4({ showAdvEIDInput, setShowAdvEIDInput, onSubmit ,previousStep}) {
   };
   return (
     <div>
-      <h2>Step 4: Do you have an account in NextRoll?</h2>
+      <h2>Do you have an account in NextRoll?</h2>
       <button  className="spaced-button" onClick={() => setShowAdvEIDInput(true)}>Yes</button>
       <button  className="spaced-button" onClick={ handleNoClick}>No</button>
       {showAdvEIDInput && (
@@ -37,7 +37,7 @@ function Step4({ showAdvEIDInput, setShowAdvEIDInput, onSubmit ,previousStep}) {
           <FontAwesomeIcon icon={faInfoCircle} onClick={toggleInfo} style={{ marginLeft: '5px', color: '#999', cursor: 'pointer' }} />
           {showInfo && (
             <div className="info-tooltip">
-              <p>After logging in to the AdRoll dashboard, you can locate the Advertiser EID at the end of the URL. It consists of a series of 22 alphanumeric characters.</p>
+              <p>After logging in to the dashboard, you can locate the Advertiser EID at the end of the URL. It consists of a series of 22 alphanumeric characters.</p>
               <img src={AdvIdImage} alt="AdvId" style={{ maxWidth: '100%', maxHeight: '200px', marginTop: '10px' }} />
             </div>
           )}
