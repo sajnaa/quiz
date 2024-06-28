@@ -109,14 +109,27 @@ const SpeechSynthesizer = () => {
   }, [hasInteracted]);
 
   return (
-    <div>
-      <img 
-        src="https://assets-global.website-files.com/5bf603f84ae3421204807d40/60a54c95bf6a073eea0c69e9_Robot_waving_transparent_GIF.gif" 
-        alt="avverma" 
-        style={{ width: "400px", height: "auto", cursor: 'pointer' }} 
-        onClick={handleUserInteraction}
-      />
-    </div>
+    // <div>
+    //   <img 
+    //     src="https://assets-global.website-files.com/5bf603f84ae3421204807d40/60a54c95bf6a073eea0c69e9_Robot_waving_transparent_GIF.gif" 
+    //     alt="avverma" 
+    //     style={{ width: "400px", height: "auto", cursor: 'pointer' }} 
+    //     onClick={handleUserInteraction}
+    //   />
+    // </div>
+    <div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100vh'
+      }}>
+        <img 
+          src="https://assets-global.website-files.com/5bf603f84ae3421204807d40/60a54c95bf6a073eea0c69e9_Robot_waving_transparent_GIF.gif" 
+          alt="avverma" 
+          style={{ width: "400px", height: "auto", cursor: 'pointer' }} 
+          onClick={handleUserInteraction}
+        />
+      </div>
   );
 };
 
