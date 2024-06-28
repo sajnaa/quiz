@@ -22,7 +22,7 @@ function App() {
       setSpeechComplete(true);
     console.log('-----')
 
-    }, 7000); // Adjust the time according to your speech length or use a callback from SpeechSynthesizer
+    }, 7500); // Adjust the time according to your speech length or use a callback from SpeechSynthesizer
 
     return () => clearTimeout(timeout); // Clean up timeout if component unmounts
   }, []);
