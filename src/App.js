@@ -17,8 +17,11 @@ function App() {
 
   useEffect(() => {
     // Set a timeout to simulate SpeechSynthesizer completion
+    console.log(speechComplete)
     const timeout = setTimeout(() => {
       setSpeechComplete(true);
+    console.log('-----')
+
     }, 5000); // Adjust the time according to your speech length or use a callback from SpeechSynthesizer
 
     return () => clearTimeout(timeout); // Clean up timeout if component unmounts
@@ -27,7 +30,11 @@ function App() {
     setSelectedCampaigns(campaigns);
     setStep(4);
   };
-
+const speech=()=>{
+  
+  <SpeechSynthesizer/>
+  console.log('snak')
+}
   const handleAdvEIDSubmit = () => {
    
     setStep(5);
@@ -36,15 +43,22 @@ function App() {
   const previousStep = (step) => {
     setStep(step);
   };
+//   useEffect(()=>{
+// <SpeechSynthesizer />
+//   },[])
   return (
     <div className="App">
        <div id="login-bg-image" className="login-bg-image tb--background bgStyle" data-se="login-bg-image">
-       {!speechComplete && <SpeechSynthesizer /> &&  <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
+       {!speechComplete && <SpeechSynthesizer />
+        && 
+        <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
   <img src="https://assets-global.website-files.com/5bf603f84ae3421204807d40/60a54c95bf6a073eea0c69e9_Robot_waving_transparent_GIF.gif" 
        alt="avverma" 
        style={{ width: "400px", height: "auto" }} 
   />
-</div>}
+</div>
+}
+
 {speechComplete && 
         <div style={{ marginTop:"160px" }}>
     <img src="https://assets-global.website-files.com/5bf603f84ae3421204807d40/60a54c95bf6a073eea0c69e9_Robot_waving_transparent_GIF.gif" 
@@ -84,8 +98,8 @@ function App() {
       }
       
     </div>
-   
-
+ 
+ {/* <SpeechSynthesizer/> */}
     </div>
 
   );
