@@ -43,9 +43,7 @@ const speech=()=>{
   const previousStep = (step) => {
     setStep(step);
   };
-//   useEffect(()=>{
-// <SpeechSynthesizer />
-//   },[])
+
   return (
     <div className="App">
        <div id="login-bg-image" className="login-bg-image tb--background bgStyle" data-se="login-bg-image">
@@ -99,7 +97,6 @@ const speech=()=>{
       
     </div>
  
- {/* <SpeechSynthesizer/> */}
     </div>
 
   );
